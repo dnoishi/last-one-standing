@@ -1,0 +1,11 @@
+.env
+.env.*
+.git
+.next
+.vercel
+broadcast
+cache
+node_modules
+out
+*.log
+*.tsbuildinfo

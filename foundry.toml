@@ -1,0 +1,17 @@
+[profile.default]
+src = "src"
+test = "test"
+script = "script"
+libs = ["lib"]
+remappings = [
+  "@somnia-chain/reactivity-contracts/=node_modules/@somnia-chain/reactivity-contracts/"
+]
+solc = "0.8.30"
+optimizer = true
+optimizer_runs = 1
+via_ir = true
+
+[profile.default.fmt]
+line_length = 100
+tab_width = 4
+bracket_spacing = false

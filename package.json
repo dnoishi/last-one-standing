@@ -1,0 +1,46 @@
+{
+  "name": "last-one-standing",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "overrides": {
+    "ws": "8.21.3"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "companion": "tsx companion/index.ts",
+    "deploy": "bash scripts/deploy.sh",
+    "register-schemas": "tsx scripts/register-schemas.ts",
+    "test:contracts": "forge test"
+  },
+  "dependencies": {
+    "@somnia-chain/markets-sdk": "^0.28.1",
+    "@somnia-chain/reactivity": "0.1.5",
+    "@somnia-chain/reactivity-contracts": "^0.2.1",
+    "@somnia-chain/streams": "^0.12.2",
+    "@tanstack/react-query": "^5.102.6",
+    "dotenv": "^16.4.5",
+    "next": "^16.3.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tsx": "^4.19.0",
+    "viem": "~2.37.8",
+    "wagmi": "^3.7.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "railway": "^3.11.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.6.3"
+  }
+}

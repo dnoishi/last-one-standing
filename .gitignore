@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.vercel/
+out/
+cache/
+broadcast/
+.env
+.env.local
+*.log
+.vercel
+.env*
+TEAM.md

@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 15% -10%, rgba(249, 115, 22, 0.16), transparent 32rem),
+    #090909;
+  color: #fafafa;
+}
+button, a { transition: 160ms ease; }
